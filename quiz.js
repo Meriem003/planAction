@@ -26,6 +26,7 @@ function Showquestion (){
         lesQuestion.textContent = "terminé"
         trueButton.style.display = 'none'
         falseButton.style.display = 'none'
+        scoreElement.textContent = `score = ${score}`
     }
 }
 
